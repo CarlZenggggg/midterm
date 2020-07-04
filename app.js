@@ -69,6 +69,7 @@ app.use('/', (req, res, next) => {
 const routes = require('./routes.js');
 app.use('/', routes);
 
+
 // Start our server
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Listening on port ${port}`));
